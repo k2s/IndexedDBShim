@@ -12,8 +12,9 @@ var cleanInterface = false;
     if (Object.defineProperty) {
       try {
         Object.defineProperty(testObject, 'test',{enumerable:false});
-        if (testObject.test)
-          cleanInterface = true
+        if (testObject.test) {
+            cleanInterface = true;
+        }
       } catch (e) {
         //Object.defineProperty does not work as intended.
       }

@@ -22,6 +22,7 @@
 		"IDBKeyRange",
 		"IDBTransaction",
 		"idbModules",
+        "cleanInterface",
 		"logger",
 		"require",
 
